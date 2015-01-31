@@ -1,2 +1,2 @@
 # gitTest
-Our group PCS primer/foundations project.
+The group PCS primer/foundations project for Becca, Louse, Curt, and Colin.
