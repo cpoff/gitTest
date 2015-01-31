@@ -1,2 +1,2 @@
 # gitTest
-My first PCS git maneuver.
+Our group PCS primer/foundations project.
