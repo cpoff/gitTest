@@ -20,7 +20,7 @@ body {
 
 a {
   text-decoration: none;
-  color: white;
+  color: slategray;
 
 }
 
@@ -63,7 +63,7 @@ header {
    font-size: 0.75em;
    margin: -5px 0 0;
    font-weight: normal;
-   color: #fff;
+   color: Gainsboro;
  }
 
 
@@ -80,7 +80,7 @@ header {
    text-align: center;
    padding: 10px 0;
    margin: 20px 0 0;
-   background: #599a68;
+   background: #759BA9;
 
  }
 
@@ -101,12 +101,12 @@ nav li {
 }
  /* nav link */
  nav a, nav a: visited {
-   color: #fff;
+   color: #F3F4F5;
  }
 
  /* selected nav link */
  nav a.selected, nav a:hover {
-   color: #66FF66;
+   color: #F3F4F5;
  }
 
 
@@ -119,9 +119,9 @@ footer {
   text-align: center;
   clear: both;
   padding-top: 50px;
-  color: #ccc;
-  border: 5px solid orange;
-  background-color: #599a68;
+  color: #0D2B36;
+  border: 1px darkgray;
+  background-color: #AEC6CF;
 
 }
 
@@ -145,7 +145,7 @@ PAGE PORTFOLIO
   float: left;
   width: 45%;
   margin: 2.5%;
-  background-color: orange;
+  background-color: #F3F4F5;
   color: #bdc3c7;
 }
 
@@ -163,15 +163,15 @@ COLORS
 ********************************/
 
 body {
-  background-color: #fff;
+  background-color: #F5F4F3;
   color: #999;
 }
 
 
 
 header {
-  background: #6ab47b;
-  border-color: #599a68;
+  background: #AEC6CF;
+  border-color: #FAEBD7;
 
 
 
