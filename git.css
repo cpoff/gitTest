@@ -20,7 +20,7 @@ body {
 
 a {
   text-decoration: none;
-  color: slategray;
+  color: #3c546c;
 
 }
 
@@ -63,7 +63,7 @@ header {
    font-size: 0.75em;
    margin: -5px 0 0;
    font-weight: normal;
-   color: Gainsboro;
+   color: #999;
  }
 
 
@@ -80,7 +80,7 @@ header {
    text-align: center;
    padding: 10px 0;
    margin: 20px 0 0;
-   background: #759BA9;
+   background: #e4eaf0;
 
  }
 
@@ -101,12 +101,12 @@ nav li {
 }
  /* nav link */
  nav a, nav a: visited {
-   color: #F3F4F5;
+   color: Gainsboro;
  }
 
  /* selected nav link */
  nav a.selected, nav a:hover {
-   color: #F3F4F5;
+   color: #b6b6b6;
  }
 
 
@@ -119,9 +119,9 @@ footer {
   text-align: center;
   clear: both;
   padding-top: 50px;
-  color: #0D2B36;
+  color: #2e4053 ;
   border: 1px darkgray;
-  background-color: #AEC6CF;
+  background-color: #d4dde7 ;
 
 }
 
@@ -170,7 +170,7 @@ body {
 
 
 header {
-  background: #AEC6CF;
+  background: #c4d0de ;
   border-color: #FAEBD7;
 
 
