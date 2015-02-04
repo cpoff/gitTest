@@ -141,6 +141,13 @@ PAGE PORTFOLIO
 
 }
 
+.prices{
+  margin: 2px;
+  padding: 1px;
+  width: 80%;
+
+}
+
 #gallery li {
   float: left;
   width: 45%;
