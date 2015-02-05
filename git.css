@@ -115,12 +115,12 @@ FOOTER
 ************************/
 
 footer {
-  font-size: 0.75em;
+  
   text-align: center;
-  clear: both;
-  padding-top: 50px;
+  border-radius: 30%;
+  padding-top: 25px;
   color: #2e4053 ;
-  border: 1px darkgray;
+
   background-color: #d4dde7 ;
 
 }
