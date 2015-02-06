@@ -5,7 +5,7 @@ GENERAL
 
 
 body {
-  font-family: 'Open Sans' , sans-serif;
+  font-family: 'Garamond' , georgia;
 }
 
 
@@ -50,9 +50,9 @@ header {
  }
 
  h1 {
-   font-family: 'Changa One' , sans-serif;
+   font-family: 'Garamond' , georgia;
    margin: 15px 0;
-   font-size: 1.75em;
+   font-size: 2em;
    font-weight: normal;
    line-height: 0.8em;
 
@@ -60,7 +60,7 @@ header {
  }
 
  h2 {
-   font-size: 0.75em;
+   font-size: 1em;
    margin: -5px 0 0;
    font-weight: normal;
    color: #999;
@@ -142,9 +142,10 @@ PAGE PORTFOLIO
 }
 
 .prices{
-  margin: 2px;
+  font-size: 1.2em;
+  margin: 4px;
   padding: 1px;
-  width: 80%;
+  width: 50%;
 
 }
 
