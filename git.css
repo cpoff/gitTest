@@ -40,7 +40,9 @@ header {
 }
 
 
-
+.header-img-left { 
+  float:left; 
+}
 
  #logo {
    text-align: center;
