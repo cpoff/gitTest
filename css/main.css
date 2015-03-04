@@ -8,8 +8,9 @@ NAVIGATION
 BODY
 ************************************************************/
 
-body .container h1 {
-	font-family: 'Raleway', sans-serif;
+h1 {
+	font-family: 'Roboto Slab', serif;
+  font-weight: 700;
 }
 
 
