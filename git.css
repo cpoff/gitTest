@@ -3,25 +3,19 @@ GENERAL
 *********************************/
 
 
-
 body {
   font-family: 'Garamond' , georgia;
 }
-
-
-
 
 #wrapper {
   max-width: 940px;
   margin: 0 auto;
   padding: 0 5%;
-
 }
 
 a {
   text-decoration: none;
   color: #3c546c;
-
 }
 
 img {
@@ -39,7 +33,6 @@ header {
   width: 100%;
 }
 
-
 .header-img-left { 
   float:left; 
 }
@@ -47,8 +40,6 @@ header {
  #logo {
    text-align: center;
    margin: 0;
-
-
  }
 
  h1 {
@@ -57,8 +48,6 @@ header {
    font-size: 2em;
    font-weight: normal;
    line-height: 0.8em;
-
-
  }
 
  h2 {
@@ -67,11 +56,6 @@ header {
    font-weight: normal;
    color: #999;
  }
-
-
-
-
-
 
 
  /*************************
@@ -122,9 +106,7 @@ footer {
   border-radius: 30%;
   padding-top: 25px;
   color: #2e4053 ;
-
   background-color: #d4dde7 ;
-
 }
 
 .social-icon {
@@ -133,6 +115,7 @@ footer {
   margin: 0 5px;
 }
 
+
 /***********************
 PAGE PORTFOLIO
 **********************/
@@ -140,7 +123,6 @@ PAGE PORTFOLIO
   margin: 0;
   padding: 0;
   list-style: none;
-
 }
 
 .prices{
@@ -148,7 +130,6 @@ PAGE PORTFOLIO
   margin: 4px;
   padding: 1px;
   width: 50%;
-
 }
 
 #gallery li {
@@ -167,7 +148,6 @@ PAGE PORTFOLIO
 }
 
 
-
 /********************************
 COLORS
 ********************************/
@@ -178,22 +158,8 @@ body {
 }
 
 
-
 header {
   background: #c4d0de ;
   border-color: #FAEBD7;
-
-
-
 }
 
-
-
-
-
-
-
-
-/**************************
- PAGE HEADIING
- *************************/
