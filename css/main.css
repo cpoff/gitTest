@@ -2,28 +2,33 @@
 HEADER
 ************************************************************/
 
-header {
+.navbar-header {
   background: #17607D;
-  border-bottom: solid 3px #002A4A;
+  padding-left: 0;
+  margin-left: 15px;
 }
-
-  h1 {
-    font-color: #fff;
-  }
 
 
 /************************************************************
 NAVIGATION
 ************************************************************/
 
+ul li {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+}
 
+.navbar-brand {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+}
 
 /************************************************************
 BODY
 ************************************************************/
 
 h1 {
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Raleway', sans-serif;
   font-weight: 700;
 }
 
