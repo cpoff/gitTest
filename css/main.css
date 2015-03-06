@@ -6,7 +6,7 @@ HEADER
   font-family: 'Raleway', sans-serif;
 }
 
-a .navbar-brand {
+.navbar-default .navbar-brand {
   margin-right: 1em;
   color: #fff;
 }
