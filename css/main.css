@@ -92,12 +92,12 @@ FOOTER
 ************************************************************/
 .footer {
 
-	background: #002A4A;
+    background: #002A4A;
     font-family: 'Raleway', sans-serif;
     position: fixed;
-	text-align: center;
+    text-align: center;
     bottom: 0;
     width: 100%;
-    /* Set the fixed height of the footer here */
     height: 40px;
+    padding-top: 10px;
 }
