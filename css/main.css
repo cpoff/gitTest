@@ -6,25 +6,20 @@ HEADER
   font-family: 'Raleway', sans-serif;
 }
 
-
 .navbar-brand {
-  margin-right: 1.5em;
+  margin-right: 10em;
 }
 
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-	background: #002A4A;
-	color: #fff;
-}
-
-.navbar-default .navbar-brand {
-	color: #fff;
-	font-weight: 600;
+html {
+  position: relative;
+  min-height: 100%;
 }
 
 
 /************************************************************
 NAVIGATION
 ************************************************************/
+
 
 ul li {
   font-family: 'Raleway', sans-serif;
@@ -55,10 +50,13 @@ BODY
 ************************************************************/
 
 h1 {
-	font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
 }
 
+body {
+    margin-bottom: 60px;
+}
 
 /************************************************************
 OFFERINGS
@@ -96,6 +94,7 @@ FEEDBACK FORM
 /************************************************************
 FOOTER
 ************************************************************/
+
 .footer {
 	background: #002A4A;
   font-family: 'Raleway', sans-serif;
@@ -104,5 +103,8 @@ FOOTER
   bottom: 0;
   width: 100%;
     /* Set the fixed height of the footer here */
-  height: 40px;
+    height: 40px;
+	padding-top: 10px;
 }
+
+
