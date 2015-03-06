@@ -29,6 +29,7 @@ NAVIGATION
 ul li {
   font-family: 'Raleway', sans-serif;
   font-weight: 600;
+  color: #fff;
 }
 
 .navbar-brand {
@@ -36,12 +37,16 @@ ul li {
   font-weight: 700;
 }
 
+.navbar-default .navbar-nav > li > a {
+	color: #fff;
+}
+
 /************************************************************
 OFFERINGS
 ************************************************************/
 
 .first {
-  margin-top: 4.5em;
+  margin-top: 60px;
 }
 
 
@@ -92,13 +97,12 @@ FEEDBACK FORM
 FOOTER
 ************************************************************/
 .footer {
-
 	background: #002A4A;
-    font-family: 'Raleway', sans-serif;
-    position: fixed;
+  font-family: 'Raleway', sans-serif;
+  position: fixed;
 	text-align: center;
-    bottom: 0;
-    width: 100%;
+  bottom: 0;
+  width: 100%;
     /* Set the fixed height of the footer here */
-    height: 40px;
+  height: 40px;
 }
