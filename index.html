@@ -6,6 +6,8 @@
     <meta charset="utf-8" />
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <script src="/bootstrap/js/bootstrap.js"></script>  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <link href='http://fonts.googleapis.com/css?family=Raleway:400,800,700,500,300,600|Roboto+Slab:400,300,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/main.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -35,7 +37,7 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
-            <li><a href="#offerings">Offerings</a> </li>
+            <li class="active"><a href="#offerings">Offerings <span class="sr-only"></span></a></li>
             <li><a href="#links"> Links</a> <li>
             <li><a href="#contact">Contact</a> </li>
             <li><a href="#map.html">Map</a> <li>
@@ -49,13 +51,58 @@
     <div class="container">
       <div class="row">
         <div class="first"><h1>Offerings</h1></div> 
+          <table class="table table-responsive">
+            <tbody>
+              <tr class="info">
+                <th scope="col" id="table-head-1">Massage</th>
+                <th scope="col" id="table-head-2">Descriptions</th>
+                <th scope="col" id="table-head-3">Prices</th>
+              </tr>
+              <tr>
+                <th scope ="row">Deep Tissue</th>
+                <td>Focuses on the release of tension and knots in your muscles by pin pointing and applying pressure to targeted areas.</td>
+                <td> 30 Mins $55 <br>60 Mins $80<br></td> 
+              </tr>
+              <tr>
+                <th scope ="row">Hot Stone</th>
+                <td>Specialty massage that includes the application of smooth heated stones that assist in rapidly relaxing your muscles in order for your therapist to achieve a deeper massage.</td>
+                <td> 60 Mins $90 <br>90 Mins $120</br></td> 
+              </tr>
+              <tr>
+                <th scope ="row">Reflexology</th>
+                <td>Using points in the hands and feet, we will use the bodys system to target different tension and aliments throughout the body.</td>
+                <td> 30 Mins $40 <br>60 Mins $75</br></td> 
+              </tr>
+              <tr>
+                <th scope ="row">Sports Therapy</th>
+                <td>Includes a consultation with our therapist in order to find the targeted areas of your body that are stressed the most from your activity.</td>
+                <td> 60 Mins $80 <br>90 Mins $110</br></td> 
+              </tr>
+              <tr>
+                <th scope ="row">Accident Recovery</th>
+                <td>Post accident, consult with our therapist to find the best massage treatment plan to help reduce pain, swelling, and regain motion to restore your body back to health.</td>
+                <td> 60 Mins $80 <br>90 Mins $110</br></td> 
+              </tr>
+            </tbody>
+          </table>
       </div>  <!-- offerings row -->
       <div class="row">
-        <div class="col-med-5">
-        <h1 id="links">Links</h1>
+        <div class="col-med-4">
+          <h1 id="links">Links</h1>
+            <ul>
+              <li><a href="http://www.wsj.com/articles/SB10001424052702304537904577277303049173934">Wall Street Journal</a></li>
+              <li><a href="http://www.mayoclinic.org/healthy-living/stress-management/in-depth/massage/art-20045743">Mayo Clinic</a></li>
+              <li><a href="http://www.amtamassage.org/infocenter/healthcare_articles-and-associations.html">American Massage Therapy Association</a></li>
+              <li><a href="http://www.cnn.com/2007/HEALTH/03/08/healthmag.massage/">CNN</a></li>
+            </ul>
         </div> <!-- med-5 -->
-        <div class="col-med-5">
-        <h1 id="contact-us">Contact Us</h1>
+        <div class="col-med-4">
+          <h1 id="contact-us">Contact Us</h1>
+            <ul class="contact-info">
+              <li class="phone"><a href="tel:503-555-5555">Phone: 503-555-5555</a></li>
+              <li class="address">Address: 1771 NW Pettygrove St</li>
+              <li class="mail"><a href="mailto:angela@example.com">Email: angela@example.com</a></li>
+            </ul>
         </div> <!-- med-5 -->
       </div> <!-- links/contacts row -->
 
@@ -76,6 +123,5 @@
         <p class="text-muted">Angela and Curt's Project. 2015</p>
      </footer>
  </div> <!-- container -->
-    
   </body>
 </html>
