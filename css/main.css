@@ -7,9 +7,18 @@ HEADER
 }
 
 .navbar-brand {
-  margin-right: 10em;
+  margin-right: 1.5em;
 }
 
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	background: #002A4A;
+	color: #fff;
+}
+
+.navbar-default .navbar-brand {
+	color: #fff;
+	font-weight: 600;
+}
 
 /************************************************************
 NAVIGATION
