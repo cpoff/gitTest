@@ -6,8 +6,9 @@ HEADER
   font-family: 'Raleway', sans-serif;
 }
 
-.navbar-brand {
+a .navbar-brand {
   margin-right: 1em;
+  color: #fff;
 }
 
 html {
