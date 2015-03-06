@@ -6,9 +6,10 @@ HEADER
   font-family: 'Raleway', sans-serif;
 }
 
-.navbar-nav .navbar-default li a {
-  font: #red;
+.navbar-brand {
+  margin-right: 10em;
 }
+
 
 /************************************************************
 NAVIGATION
@@ -19,8 +20,8 @@ NAVIGATION
 OFFERINGS
 ************************************************************/
 
-#offerings {
-  margin-top: 2em;
+.first {
+  margin-top: 4.5em;
 }
 
 
@@ -50,7 +51,10 @@ LINKS
 CONTACT US
 ************************************************************/
 
-
+.contact-info {
+  text-decoration: none;
+  color: black;
+}
 
 
 /************************************************************
