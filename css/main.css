@@ -1,16 +1,25 @@
 /************************************************************
 HEADER
 ************************************************************/
-
-header {
-  background: #17607D;
-  border-bottom: solid 3px #002A4A;
-  padding-top: 60px;
+.navbar {
+  background: #002A4A;
+  font-family: 'Raleway', sans-serif;
 }
 
-  h1 {
-    font-color: #fff;
-  }
+.navbar-brand {
+
+  margin-right: 1.5em;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	background: #002A4A;
+	color: #fff;
+}
+
+.navbar-default .navbar-brand {
+	color: #fff;
+	font-weight: 600;
+}
 
 
 /************************************************************
@@ -18,19 +27,22 @@ NAVIGATION
 ************************************************************/
 
 
+/************************************************************
+OFFERINGS
+************************************************************/
+
+.first {
+  margin-top: 4.5em;
+}
+
 
 /************************************************************
 BODY
 ************************************************************/
 
 h1 {
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Raleway', sans-serif;
   font-weight: 700;
-}
-
-.container {
-	padding-top: 60px;
-	padding-bottom: 60px;
 }
 
 
@@ -50,7 +62,10 @@ LINKS
 CONTACT US
 ************************************************************/
 
-
+.contact-info {
+  text-decoration: none;
+  color: black;
+}
 
 
 /************************************************************
@@ -69,13 +84,6 @@ FOOTER
 ************************************************************/
 
 .footer {
-	position: fixed;
-	left:0;
-	right:0;
-	vertical-align: middle;
-	text-align: center;
-	bottom: 0px;
-  width: 100%;
-  height: 40px;
-  background-color: #f5f5f5;
+  background: #002A4A;
+  font-family: 'Raleway', sans-serif;
 }
