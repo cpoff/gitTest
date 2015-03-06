@@ -1,11 +1,24 @@
 /************************************************************
 HEADER
 ************************************************************/
+.navbar {
+  background: #002A4A;
+  font-family: 'Raleway', sans-serif;
+}
 
-.navbar-header {
-  background: #17607D;
-  padding-left: 0;
-  margin-left: 15px;
+
+.navbar-brand {
+  margin-right: 1.5em;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	background: #002A4A;
+	color: #fff;
+}
+
+.navbar-default .navbar-brand {
+	color: #fff;
+	font-weight: 600;
 }
 
 
@@ -22,6 +35,15 @@ ul li {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
 }
+
+/************************************************************
+OFFERINGS
+************************************************************/
+
+/*.first {
+  margin-top: 4.5em;
+}*/
+
 
 /************************************************************
 BODY
@@ -49,7 +71,10 @@ LINKS
 CONTACT US
 ************************************************************/
 
-
+.contact-info {
+  text-decoration: none;
+  color: black;
+}
 
 
 /************************************************************
